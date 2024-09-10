@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming</title>
+   <style>
+    .links {
+        text-align: left;
+        margin-top: 50px;
+        position: absolute;
+        top: 400px;
+        left: 50px;
+    }
+    
+    a {
+        color: #4CAF50;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border: 1px solid #4CAF50;
+        border-radius: 40px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    a:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+    div{
+        font-size: 30px;
+    }
+        body{
+            background-image: url(songsbg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-size: 50px;
+        }
+   </style>
+</head>
+<body>
+    <div class="links"></li><span style="padding-left:5000px"></span>
+       <li> <a href="songs.html" onclick="showSongs('telugu')">Telugu Songs</a></li><span style="padding-left:500px"></span>
+        <li><a href="englishsongs.html" onclick="showSongs('english')">Tamil Songs</a></li>
+    </div>
+
+    <div id="telugu-songs" class="songs">
+    </div>
+    <div id="tamil-songs" class="songs" style="display: none;">
+      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

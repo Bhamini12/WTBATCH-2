@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <title>MusicStream - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+body{
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 125% 150%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MusicStream</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="songs.html">Songs</a>
+            <a href="videos.html">Videos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1>Welcome to MusicStream</h1>
+                <p>Discover and enjoy your favorite music and videos</p>
+                <a href="option.html" class="cta-button">Explore Songs</a>
+                <a href="videos.html" class="cta-button">Watch Videos</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MusicStream</p>
+        <p>
+            <a href="#">About Us</a> | 
+            <a href="#">Contact</a> | 
+            <a href="#">Terms of Service</a> | 
+            <a href="#">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+</html>
